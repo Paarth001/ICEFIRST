@@ -57,7 +57,7 @@ public class CardTrick {
         luckyCard.setValue(7); // Set the card number
         luckyCard.setSuit("Spades"); // Set the card suit
 
-        // Rest of the code..
+        // Rest of the code...
     }
 
     // Helper method to generate a random number between 0 and 3
