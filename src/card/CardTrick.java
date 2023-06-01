@@ -51,6 +51,13 @@ public class CardTrick {
         } else {
             System.out.println("Your card is not in the magic hand.");
         }
+        
+         // Create the luckyCard object with a card number and suit of your choice
+        Card luckyCard = new Card();
+        luckyCard.setValue(7); // Set the card number
+        luckyCard.setSuit("Spades"); // Set the card suit
+
+        // Rest of the code...
     }
 
     // Helper method to generate a random number between 0 and 3
@@ -62,13 +69,8 @@ public class CardTrick {
     private static int generateRandomNumber(int min, int max) {
         return (int) (Math.random() * (max - min + 1) + min);
     }
-    public static void main(String[] args) {
-        // Create the luckyCard object with a card number and suit of your choice
-        Card luckyCard = new Card();
-        luckyCard.setValue(7); // Set the card number
-        luckyCard.setSuit("Spades"); // Set the card suit
-
-        // Rest of the code...
+    
+       
     }
     
-}
+
